@@ -33,21 +33,19 @@ namespace minesweeper
           Stopwatch stopwatch = new Stopwatch();
           Timer timer = new Timer();
 
-          //Generating random values for field coordinates
-          int getRandomValue(int limit)
-          {
-               Random rng = new Random();
-               return rng.Next(limit);
-          }
-
           //Filling logic field
           void generate_field()
           {
+               //Initialising random number generator
+               Random rng = new Random();
+
                //Random placing of 10 bombs on the field
                while (nr_bombs > 0)
                {
-                    int x = getRandomValue(nr_rows);
-                    int y = getRandomValue(nr_cols);
+                    //Generating random values for field coordinates
+                    int x = rng.Next(nr_rows);
+                    int y = rng.Next(nr_cols);
+                         
                     if (field[x, y] != -1)
                     {
                          field[x, y] = -1;
@@ -112,8 +110,7 @@ namespace minesweeper
                          timer.Stop();
                          stopwatch.Stop();
                          timer.Dispose();
-                         dataGridView1.CurrentCell.Value = field[x, y].ToString();
-                         dataGridView1.CurrentCell.Style.BackColor = Color.White;
+                         open_cells(x, y);
                          string message = "You won!\nYour time: " + label8.Text + " seconds";
                          gameover(message);
                     }
