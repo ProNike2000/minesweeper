@@ -1,0 +1,11 @@
+C:\Users\Enter\source\repos\minesweeper\minesweeper\bin\Debug\minesweeper.exe.config
+C:\Users\Enter\source\repos\minesweeper\minesweeper\bin\Debug\minesweeper.exe
+C:\Users\Enter\source\repos\minesweeper\minesweeper\bin\Debug\minesweeper.pdb
+C:\Users\Enter\source\repos\minesweeper\minesweeper\obj\Debug\minesweeper.csprojAssemblyReference.cache
+C:\Users\Enter\source\repos\minesweeper\minesweeper\obj\Debug\minesweeper.Form1.resources
+C:\Users\Enter\source\repos\minesweeper\minesweeper\obj\Debug\minesweeper.Properties.Resources.resources
+C:\Users\Enter\source\repos\minesweeper\minesweeper\obj\Debug\minesweeper.csproj.GenerateResource.cache
+C:\Users\Enter\source\repos\minesweeper\minesweeper\obj\Debug\minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\Enter\source\repos\minesweeper\minesweeper\obj\Debug\minesweeper.exe
+C:\Users\Enter\source\repos\minesweeper\minesweeper\obj\Debug\minesweeper.pdb
+C:\Users\Enter\source\repos\minesweeper\minesweeper\obj\Debug\minesweeper.Form2.resources
