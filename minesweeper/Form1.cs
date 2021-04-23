@@ -3,6 +3,12 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
+//© 2021 Nichita Macovei
+//ALL RIGHTS RESERVED
+//COPYRIGHT PROTECTED BY REPUBLIC OF MOLDOVA'S LAW №139 AT 02-07-2010 "ABOUT COPYRIGHT AND RELATED RIGHTS"
+//UNAUTHORIZED COPYING AND REDISTRIBUTING IS PROHIBITED
+//VIOLATORS ARE SUBJECT TO CRIMINAL PROSECUTION
+
 namespace minesweeper
 {
      public partial class Form1 : Form
